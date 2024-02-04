@@ -1,3 +1,4 @@
 streamlit
 embedchain
 pysqlite3-binary
+sentence-transformers
