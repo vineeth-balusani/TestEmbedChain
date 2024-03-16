@@ -5,8 +5,9 @@ from embedchain import App
 
 @st.cache_resource
 def embedchain_bot():
-    return App.from_config("huggingface1.yaml")
+    #return App.from_config("huggingface1.yaml")
     #return App.from_config("config.yaml")
+    return App.from_config("hugface.yaml")
 
 
 st.title("💬 Chatbot")
